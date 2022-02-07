@@ -1,0 +1,37 @@
+@import url('thepostgrid.css');
+
+.rt-tpg-container .edd1 .overlay .product-more ul li a,
+.rt-tpg-container .edd-carousel1 .overlay .product-more ul li a {
+    vertical-align: unset;
+    border-radius: 0;
+}
+.rt-carousel-holder {
+    margin-top: 30px;
+}
+.rt-tpg-container .owl-nav {
+    top: -45px !important;
+}
+.theme-digeco .rt-tpg-container .owl-theme .owl-controls .owl-nav {
+    right: 10px;
+}
+.theme-digeco .rt-tpg-container .carousel1 .owl-theme .owl-controls .owl-nav,
+.theme-digeco .rt-tpg-container .carousel2 .owl-theme .owl-controls .owl-nav {
+    right: 5px;
+}
+.rt-filter-item-wrap.rt-search-filter-wrap input.rt-search-input,
+.rt-tpg-container .tpg-iso-filter input[type="text"] {
+    line-height: 1.2;
+}
+.rt-layout-filter-container {
+    margin-bottom: 15px;
+}
+.rt-tpg-container .tpg-iso-filter {
+    margin-bottom: 25px;
+}
+.wc1 .rt-wc-add-to-cart,
+.wc2 .rt-wc-add-to-cart,
+.wc3 .rt-wc-add-to-cart,
+.wc-carousel1 .rt-wc-add-to-cart,
+.wc-carousel2 .rt-wc-add-to-cart {
+    line-height: 2;
+}

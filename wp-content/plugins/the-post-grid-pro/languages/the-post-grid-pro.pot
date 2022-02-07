@@ -1,0 +1,471 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Post Grid Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-06 11:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: the-post-grid-pro"
+
+#: lib/classes/rtTPGPLicence.php:86
+msgid "Activate License"
+msgstr ""
+
+#: lib/templates/layouts/wc-carousel2.php:9
+#: lib/templates/layouts/wc-isotope2.php:9 lib/templates/layouts/wc2.php:13
+#: lib/templates/layouts/wc3.php:30 lib/templates/layouts/wc4.php:10
+msgid "Add To Cart"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:44 lib/classes/rtTPGPLicence.php:74
+#: lib/classes/rtTPGPLicence.php:118 lib/classes/rtTPGPLicence.php:148
+#: lib/classes/rtTPGPLicence.php:176
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:52
+msgid "AVG Rating"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:93
+msgid "Carousel Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:102
+msgid "Carousel Layout 10"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:103
+msgid "Carousel Layout 11"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:104
+msgid "Carousel Layout 12"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:94
+msgid "Carousel Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:95
+msgid "Carousel Layout 3"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:96
+msgid "Carousel Layout 4"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:97
+msgid "Carousel Layout 5"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:98
+msgid "Carousel Layout 6"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:99
+msgid "Carousel Layout 7"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:100
+msgid "Carousel Layout 8"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:101
+msgid "Carousel Layout 9"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:214
+msgid "Custom Image Size"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:34
+msgid "Date Range"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:85
+msgid "Deactivate License"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:90
+msgid "Download"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:109
+msgid "EDD Carousel Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:110
+msgid "EDD Carousel Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:111
+msgid "EDD Isotope Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:112
+msgid "EDD Isotope Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:106
+msgid "EDD Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:107
+msgid "EDD Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:108
+msgid "EDD Layout 3"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Fast & Easy way to display WordPress post in Grid, List & Isotope view ( "
+"filter by category, tag, author..)  without a single line of coding."
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:168
+msgid "Gutter / Padding"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo.radiustheme.com/wordpress/plugins/the-post-grid-pro/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://radiustheme.com/"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:60 lib/classes/rtTPGPLicence.php:134
+msgid "Invalid license."
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:81
+msgid "Isotope Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:90
+msgid "Isotope Layout 10"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:91
+msgid "Isotope Layout 11"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:92
+msgid "Isotope Layout 12"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:82
+msgid "Isotope Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:83
+msgid "Isotope Layout 3"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:84
+msgid "Isotope Layout 4"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:85
+msgid "Isotope Layout 5"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:86
+msgid "Isotope Layout 6"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:87
+msgid "Isotope Layout 7"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:88
+msgid "Isotope Layout 8"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:89
+msgid "Isotope Layout 9"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:69
+msgid "Layout 10"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:70
+msgid "Layout 11"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:71
+msgid "Layout 12"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:72
+msgid "Layout 13"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:73
+msgid "Layout 14"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:74
+msgid "Layout 15"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:75
+msgid "Layout 16"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:76
+msgid "Layout 17 Gallery layout"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:63
+msgid "Layout 4"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:64
+msgid "Layout 5"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:65
+msgid "Layout 6"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:66
+msgid "Layout 7"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:67
+msgid "Layout 8"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:68
+msgid "Layout 9"
+msgstr ""
+
+#: lib/classes/rtTPGPFrontEnd.php:132 lib/classes/rtTPGPFrontEnd.php:231
+msgid "No item id found"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:135
+msgid "No post found"
+msgstr ""
+
+#: lib/classes/rtTTPGPTaxOrder.php:29 lib/classes/rtTTPGPTaxOrder.php:112
+msgid "No term found"
+msgstr ""
+
+#: lib/classes/rtTTPGPTaxOrder.php:61
+msgid "No term in list"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:48
+msgid "Number of comments"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:77
+msgid "Offset 01"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:78
+msgid "Offset 02"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:79
+msgid "Offset 03"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:80
+msgid "Offset 04"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:183
+msgid "Overlay opacity use only positive integer value"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:189
+msgid ""
+"Overlay top padding use only positive integer value, e.g : 20 (with out "
+"postfix like px, em, % etc). it will displayed by %"
+msgstr ""
+
+#: lib/vendor/RtElementorWidget.php:35
+msgid "Post Grid"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:51
+msgid "Price"
+msgstr ""
+
+#: lib/classes/rtTPGPFrontEnd.php:34
+msgid "Product has been added to your cart."
+msgstr ""
+
+#: lib/classes/rtTPGPFrontEnd.php:36
+msgid "Product not found"
+msgstr ""
+
+#: lib/classes/rtTPGPFrontEnd.php:39
+msgid "Product not selected"
+msgstr ""
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:47
+msgid "Random"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:223
+msgid "Rating (WooCommerce)"
+msgstr ""
+
+#: lib/templates/layouts/isotope2.php:31
+msgid "Read More"
+msgstr ""
+
+#: lib/classes/rtTTPGPTaxOrder.php:35 lib/classes/rtTTPGPTaxOrder.php:64
+#: lib/classes/rtTTPGPTaxOrder.php:118
+msgid "Security error"
+msgstr ""
+
+#: lib/classes/rtTTPGPTaxOrder.php:32
+msgid "Select a post type"
+msgstr ""
+
+#: lib/classes/rtTTPGPTaxOrder.php:115
+msgid "Select a taxonomy"
+msgstr ""
+
+#: lib/classes/rtTTPGPTaxOrder.php:23
+msgid "Select one taxonomy"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:89 lib/classes/rtTPGPLicence.php:188
+msgid "Session Error !!"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:163
+msgid "Share on Email"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:137
+msgid "Share on facebook"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:145
+msgid "Share on linkedin"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:149
+msgid "Share on pinterest"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:154
+msgid "Share on reddit"
+msgstr ""
+
+#: lib/classes/rtTPGPHelper.php:141
+msgid "Share on twitter"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:220
+msgid "Social share"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:83
+msgid "Successfully activated"
+msgstr ""
+
+#: lib/classes/rtTPGPInit.php:108 lib/classes/rtTPGPInit.php:109
+msgid "Taxonomy Order"
+msgstr ""
+
+#: lib/views/taxonomy-order.php:4
+msgid "Taxonomy Ordering"
+msgstr ""
+
+#: lib/init.php:70
+msgid "The Post Grid"
+msgstr ""
+
+#. Name of the plugin
+#: lib/vendor/RtElementorWidget.php:10 lib/vendor/RtElementorWidget.php:25
+msgid "The Post Grid Pro"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:67 lib/classes/rtTPGPLicence.php:141
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:169
+msgid ""
+"Unit will be pixel, No need to give any unit. Only integer value will be "
+"valid.<br> Leave it blank for default"
+msgstr ""
+
+#: lib/classes/rtTPGPFrontEnd.php:43
+msgid "Wocommerce not Installed"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:119
+msgid "WooCommerce Carousel Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:120
+msgid "WooCommerce Carousel Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:121
+msgid "WooCommerce Isotope Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:122
+msgid "WooCommerce Isotope Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:115
+msgid "WooCommerce Layout 1"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:116
+msgid "WooCommerce Layout 2"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:117
+msgid "WooCommerce Layout 3"
+msgstr ""
+
+#: lib/classes/rtTPGPHook.php:118
+msgid "WooCommerce Layout 4"
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:64 lib/classes/rtTPGPLicence.php:138
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:51 lib/classes/rtTPGPLicence.php:125
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:57 lib/classes/rtTPGPLicence.php:131
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: lib/classes/rtTPGPLicence.php:71 lib/classes/rtTPGPLicence.php:145
+msgid "Your license key has reached its activation limit."
+msgstr ""

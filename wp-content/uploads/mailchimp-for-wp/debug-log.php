@@ -1,0 +1,25 @@
+<?php exit; ?>
+[2018-09-13 09:14:17] WARNING: Form 6957 > kevi*@or***.co.ke is already subscribed to the selected list(s)
+[2018-09-19 17:08:26] WARNING: Form 6957 > lles****@gm***.com is already subscribed to the selected list(s)
+[2018-09-19 18:39:07] WARNING: Form 6957 > afta*@ca******.co.ke is already subscribed to the selected list(s)
+[2018-09-24 04:24:47] WARNING: Form 6957 > fred******@gm***.com is already subscribed to the selected list(s)
+[2018-09-25 08:28:38] WARNING: Form 6957 > ondi***@gm***.com is already subscribed to the selected list(s)
+[2018-10-06 10:49:13] WARNING: Form 6957 > okec*********@gm***.com is already subscribed to the selected list(s)
+[2018-10-23 14:50:22] WARNING: Form 6957 > oduk*****@gm***.com is already subscribed to the selected list(s)
+[2018-10-24 23:34:17] WARNING: Form 6957 > knn.*****@gm***.com is already subscribed to the selected list(s)
+[2018-12-03 10:03:44] WARNING: Form 6957 > elme*****@gm***.com is already subscribed to the selected list(s)
+[2018-12-11 14:04:14] WARNING: Form 6957 > denn**@pl***********.com is already subscribed to the selected list(s)
+[2018-12-13 12:00:48] WARNING: Form 6957 > pwda****@sh**.ca is already subscribed to the selected list(s)
+[2018-12-13 12:00:49] WARNING: Form 6957 > pwda****@sh**.ca is already subscribed to the selected list(s)
+[2018-12-23 13:12:49] WARNING: Form 6957 > aubr*********@gm***.com is already subscribed to the selected list(s)
+[2019-01-08 17:04:31] ERROR: Form 6957 > MailChimp API error: 400 Bad Request. Member In Compliance State. pwda****@sh**.ca is in a compliance state due to unsubscribe, bounce, or compliance review and cannot be subscribed.
+Request: PUT https://us12.api.mailchimp.com/3.0/lists/b2c956322a/members/620e615ad7e147c3d09145e19e745827 - {"email_address":"pwda****@sh**.ca","interests":{},"merge_fields":{"FNAME":"Peter","LNAME":"Davies"},"status":"subscribed","email_type":"html","ip_signup":"24.70.108.42"}
+Response: 400 Bad Request - {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Member In Compliance State","status":400,"detail":"pwda****@sh**.ca is in a compliance state due to unsubscribe, bounce, or compliance review and cannot be subscribed.","instance":"c0dcdbcc-066e-4d0a-8d7d-5fe35d883607"}
+[2019-02-05 11:51:59] WARNING: Form 6957 > mnts******@en*******.com is already subscribed to the selected list(s)
+[2019-06-07 18:19:26] WARNING: Form 6957 > dani*******@gm***.com is already subscribed to the selected list(s)
+[2019-07-10 08:11:48] WARNING: Form 6957 > gkos***@or***.co.ke is already subscribed to the selected list(s)
+[2020-05-27 09:09:59] WARNING: Form 6957 > radh***@or***.co.ke is already subscribed to the selected list(s)
+[2020-06-29 15:18:57] WARNING: Form 6957 > gkos***@or***.co.ke is already subscribed to the selected list(s)
+[2020-09-08 07:11:37] WARNING: Form 6957 > radh***@or***.co.ke is already subscribed to the selected list(s)
+[2021-01-24 15:44:11] WARNING: Form 6957 > tatz**@te*******.xyz is already subscribed to the selected list(s)
+[2021-04-07 19:25:27] WARNING: Form 6957 > jumb***********@gm***.com is already subscribed to the selected list(s)
