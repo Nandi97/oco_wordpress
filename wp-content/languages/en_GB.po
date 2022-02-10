@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-18 08:59:28+0000\n"
+"PO-Revision-Date: 2022-02-07 14:49:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5812,7 +5812,7 @@ msgstr "(opens in a new tab)"
 #. https://www.php.net/manual/datetime.format.php
 #: wp-includes/script-loader.php:377
 msgid "M j, Y g:i a"
-msgstr "j M Y g:i a"
+msgstr "j F Y H:i"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-renderer-controller.php:214
 msgid "The rendered block."
@@ -13414,7 +13414,7 @@ msgstr "j F Y H:i"
 #: wp-admin/includes/schema.php:428 wp-admin/options-general.php:293
 #: wp-admin/options-general.php:356
 msgid "g:i a"
-msgstr "g:i a"
+msgstr "H:i"
 
 #. translators: Localized date format, see
 #. https://www.php.net/manual/datetime.format.php
@@ -14212,7 +14212,7 @@ msgstr "Select Link Category:"
 #: wp-includes/class-wp-xmlrpc-server.php:571 wp-admin/includes/file.php:53
 #: wp-admin/includes/file.php:61
 msgid "Stylesheet"
-msgstr "Stylesheet"
+msgstr "Style sheet"
 
 #. translators: ARIA label for the Template Settings Sidebar tab, not selected.
 #. translators: Text label for the Template Settings Sidebar tab.
@@ -14272,7 +14272,7 @@ msgstr "Customise: %s"
 #: wp-admin/options-privacy.php:293 wp-admin/options-reading.php:115
 #: wp-admin/options-reading.php:132 wp-admin/widgets-form.php:317
 msgid "&mdash; Select &mdash;"
-msgstr "&mdash; Select &mdash;"
+msgstr "&ndash; Select &ndash;"
 
 #: wp-includes/class-wp-customize-manager.php:5122
 #: wp-includes/js/dist/editor.js:5270 wp-admin/options-general.php:70

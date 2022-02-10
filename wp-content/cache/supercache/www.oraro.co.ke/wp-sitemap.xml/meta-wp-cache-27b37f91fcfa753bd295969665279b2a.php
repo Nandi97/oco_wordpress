@@ -1,1 +1,0 @@
-<?php die(); ?>{"headers":{"Vary":"Vary: Accept-Encoding, Cookie","Content-type":"Content-type: application\/xml; charset=UTF-8","Last-Modified":"Last-Modified: Fri, 28 Jan 2022 13:12:10 GMT"},"uri":"www.oraro.co.ke\/wp-sitemap.xml?9cxecn99lc=1&utm_content=h0wxd7pk5i","blog_id":1,"post":0,"key":"www.oraro.co.ke443\/wp-sitemap.xml?9cxecn99lc=1&utm_content=h0wxd7pk5i"}

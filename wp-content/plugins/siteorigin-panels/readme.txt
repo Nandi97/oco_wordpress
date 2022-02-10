@@ -3,8 +3,8 @@ Tags: page builder, responsive, parallax, widgets, blocks, gallery, layout, grid
 Requires at least: 4.7
 Tested up to: 5.9
 Requires PHP: 5.6.20
-Stable tag: 2.16.1
-Build time: 2022-01-26T22:27:28+02:00
+Stable tag: 2.16.2
+Build time: 2022-02-07T14:25:12+02:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -106,6 +106,10 @@ We've tried to ensure that Page Builder is compatible with most plugin widgets. 
 SiteOrigin Premium includes access to our professional email support service, perfect for those times when you need fast and effective technical support. We're standing by to assist you in any way we can.
 
 == Changelog ==
+
+= 2.16.2 - 07 February 2022 =
+* Added Yoast Video SEO plugin integration.
+* Restored content analysis functionality for newer Yoast SEO versions.
 
 = 2.16.1 - 26 January 2022 =
 * Sidebar Emulator: Accounted for a potential notice when setting widget ID.

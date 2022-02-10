@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-08 09:22:37+0000\n"
+"PO-Revision-Date: 2022-02-07 15:06:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -776,11 +776,6 @@ msgstr "Deleting, anonymising, or forgetting all data that a business or website
 msgid "This screen allows you to manage requests to erase or delete personal data."
 msgstr "This screen allows you to manage requests to erase or delete personal data."
 
-#. translators: 1: post_max_size, 2: upload_max_filesize
-#: wp-admin/includes/class-wp-site-health.php:2175
-msgid "The setting for %1$s is currently configured as 0, this could cause some problems when trying to upload files through plugin or theme features that rely on various upload methods. It is recommended to configure this setting to a fixed value, ideally matching the value of %2$s, as some upload methods read the value 0 as either unlimited, or disabled."
-msgstr "The setting for %1$s is currently configured as 0, this could cause some problems when trying to upload files through plugin or theme features that rely on various upload methods. It is recommended to configure this setting to a fixed value, ideally matching the value of %2$s, as some upload methods read the value 0 as either unlimited, or disabled."
-
 #: wp-admin/includes/ajax-actions.php:5450
 msgid "Cannot send password reset, permission denied."
 msgstr "Cannot send password reset, permission denied."
@@ -798,6 +793,11 @@ msgstr "Want more events? <a href=\"%s\">Help organise the next one</a>!"
 #: wp-admin/includes/dashboard.php:1451
 msgid "https://make.wordpress.org/community/organize-event-landing-page/"
 msgstr "https://make.wordpress.org/community/organize-event-landing-page/"
+
+#. translators: 1: post_max_size, 2: upload_max_filesize
+#: wp-admin/includes/class-wp-site-health.php:2175
+msgid "The setting for %1$s is currently configured as 0, this could cause some problems when trying to upload files through plugin or theme features that rely on various upload methods. It is recommended to configure this setting to a fixed value, ideally matching the value of %2$s, as some upload methods read the value 0 as either unlimited, or disabled."
+msgstr "The setting for %1$s is currently configured as 0, this could cause some problems when trying to upload files through plugin or theme features that rely on various upload methods. It is recommended to configure this setting to a fixed value, ideally matching the value of %2$s, as some upload methods read the value 0 as either unlimited, or disabled."
 
 #. translators: 1: wp-config.php, 2: WP_HOME, 3: WP_SITEURL
 #: wp-admin/includes/class-wp-site-health.php:1608
@@ -2671,14 +2671,6 @@ msgctxt "publish box time format"
 msgid "H:i"
 msgstr "H:i"
 
-#. translators: Publish box date format, see
-#. https://www.php.net/manual/datetime.format.php
-#: wp-admin/edit-form-advanced.php:175 wp-admin/edit-form-comment.php:128
-#: wp-admin/includes/meta-boxes.php:219 wp-admin/includes/meta-boxes.php:411
-msgctxt "publish box date format"
-msgid "M j, Y"
-msgstr "j M Y"
-
 #. translators: 1: Marker.
 #: wp-admin/includes/misc.php:136
 msgid ""
@@ -2693,6 +2685,14 @@ msgstr ""
 #: wp-admin/includes/dashboard.php:2044
 msgid "https://wordpress.org/support/article/block-themes/"
 msgstr "https://wordpress.org/support/article/block-themes/"
+
+#. translators: Publish box date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: wp-admin/edit-form-advanced.php:175 wp-admin/edit-form-comment.php:128
+#: wp-admin/includes/meta-boxes.php:219 wp-admin/includes/meta-boxes.php:411
+msgctxt "publish box date format"
+msgid "M j, Y"
+msgstr "j F Y"
 
 #: wp-admin/includes/image-edit.php:67
 msgid "Rotate right"
@@ -5492,7 +5492,7 @@ msgstr "Run the installation"
 
 #: wp-admin/privacy.php:62
 msgid "https://wordpress.org/about/privacy/"
-msgstr "https://wordpress.org/about/privacy/"
+msgstr "https://en-gb.wordpress.org/about/privacy/"
 
 #: wp-admin/press-this.php:80
 msgid "Press This is not available. Please contact your site administrator."
@@ -5652,16 +5652,16 @@ msgstr "Unable to write to file."
 msgid "Your PHP code changes were rolled back due to an error on line %1$s of file %2$s. Please fix and try saving again."
 msgstr "Your PHP code changes were rolled back due to an error on line %1$s of file %2$s. Please fix and try saving again."
 
+#: wp-admin/includes/dashboard.php:81 wp-admin/includes/dashboard.php:637
+msgid "Your Recent Drafts"
+msgstr "Your Recent Drafts"
+
 #. translators: If a Rosetta site exists (e.g. https://es.wordpress.org/news/),
 #. then use that. Otherwise, leave untranslated.
 #: wp-admin/includes/dashboard.php:1307
 msgctxt "Events and News dashboard widget"
 msgid "https://wordpress.org/news/"
-msgstr "https://wordpress.org/news/"
-
-#: wp-admin/includes/dashboard.php:81 wp-admin/includes/dashboard.php:637
-msgid "Your Recent Drafts"
-msgstr "Your Recent Drafts"
+msgstr "https://en-gb.wordpress.org/news/"
 
 #: wp-admin/includes/class-wp-users-list-table.php:556
 #: wp-admin/includes/class-wp-ms-users-list-table.php:311
@@ -5789,14 +5789,6 @@ msgstr "WordPress Events and News"
 msgid "Unknown API error."
 msgstr "Unknown API error."
 
-#. translators: Date format for upcoming events on the dashboard. Include the
-#. day of the week. See https://www.php.net/manual/datetime.format.php
-#: wp-admin/includes/class-wp-community-events.php:396
-#: wp-admin/includes/class-wp-community-events.php:401
-#: wp-admin/js/dashboard.js:774
-msgid "l, M j, Y"
-msgstr "l, j M Y"
-
 #. translators: %d: Numeric HTTP status code, e.g. 400, 403, 500, 504, etc.
 #: wp-admin/includes/class-wp-community-events.php:119
 msgid "Invalid API response code (%d)."
@@ -5811,6 +5803,14 @@ msgstr "There aren&#8217;t any events scheduled near %1$s at the moment. Would y
 #: wp-admin/includes/dashboard.php:1332 wp-admin/js/dashboard.js:585
 msgid "An error occurred. Please try again."
 msgstr "An error occurred. Please try again."
+
+#. translators: Date format for upcoming events on the dashboard. Include the
+#. day of the week. See https://www.php.net/manual/datetime.format.php
+#: wp-admin/includes/class-wp-community-events.php:396
+#: wp-admin/includes/class-wp-community-events.php:401
+#: wp-admin/js/dashboard.js:774
+msgid "l, M j, Y"
+msgstr "l j F Y"
 
 #: wp-admin/users.php:186 wp-admin/users.php:275
 msgid "Sorry, you are not allowed to delete users."
@@ -7155,12 +7155,6 @@ msgstr "Items list"
 msgid "Items list navigation"
 msgstr "Items list navigation"
 
-#. translators: Date and time format for recent posts on the dashboard, from a
-#. different calendar year, see https://www.php.net/manual/datetime.format.php
-#: wp-admin/includes/dashboard.php:1007
-msgid "M jS Y"
-msgstr "M jS Y"
-
 #: wp-admin/includes/class-wp-users-list-table.php:243
 msgid "No role"
 msgstr "No role"
@@ -7181,6 +7175,12 @@ msgstr "View all drafts"
 #: wp-admin/includes/class-wp-screen.php:1326
 msgid "View mode"
 msgstr "View mode"
+
+#. translators: Date and time format for recent posts on the dashboard, from a
+#. different calendar year, see https://www.php.net/manual/datetime.format.php
+#: wp-admin/includes/dashboard.php:1007
+msgid "M jS Y"
+msgstr "j F Y"
 
 #. translators: %s: Number of comments.
 #: wp-admin/includes/class-wp-comments-list-table.php:243
@@ -7646,13 +7646,6 @@ msgstr "This theme has not been rated yet."
 msgid "New translations are available."
 msgstr "New translations are available."
 
-#. translators: Date and time format for exact current time, mainly about
-#. timezones, see https://www.php.net/manual/datetime.format.php
-#: wp-admin/options-general.php:23
-msgctxt "timezone date format"
-msgid "Y-m-d H:i:s"
-msgstr "Y-m-d H:i:s"
-
 #: wp-admin/nav-menus.php:642
 msgid "To add a custom link, <strong>expand the Custom Links section, enter a URL and link text, and click Add to Menu</strong>"
 msgstr "To add a custom link, <strong>expand the Custom Links section, enter a URL and link text, and click Add to Menu</strong>"
@@ -7715,6 +7708,13 @@ msgstr ""
 "All at ###SITENAME###\n"
 "###SITEURL###"
 
+#. translators: Date and time format for exact current time, mainly about
+#. timezones, see https://www.php.net/manual/datetime.format.php
+#: wp-admin/options-general.php:23
+msgctxt "timezone date format"
+msgid "Y-m-d H:i:s"
+msgstr "j F Y H:i"
+
 #: wp-admin/includes/ms.php:307 wp-admin/network/settings.php:404
 msgid "Size in megabytes"
 msgstr "Size in megabytes"
@@ -7722,11 +7722,6 @@ msgstr "Size in megabytes"
 #: wp-admin/includes/ms.php:304
 msgid "Site Upload Space Quota"
 msgstr "Site Upload Space Quota"
-
-#: wp-admin/includes/revision.php:249 wp-admin/includes/revision.php:292
-msgctxt "revision date short format"
-msgid "j M @ H:i"
-msgstr "j M @ H:i"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:1376
 msgid ""
@@ -7798,9 +7793,14 @@ msgstr ""
 "All at ###SITENAME###\n"
 "###SITEURL###"
 
+#: wp-admin/includes/revision.php:249 wp-admin/includes/revision.php:292
+msgctxt "revision date short format"
+msgid "j M @ H:i"
+msgstr "j F @ H:i"
+
 #: wp-admin/includes/revision.php:248 wp-admin/includes/revision.php:291
 msgid "M j, Y @ H:i"
-msgstr "j M Y @ H:i"
+msgstr "j F Y @ H:i"
 
 #: wp-admin/comment.php:214
 msgid "Submitted on"
@@ -8310,12 +8310,6 @@ msgid_plural "%s Pages"
 msgstr[0] "%s Page"
 msgstr[1] "%s Pages"
 
-#. translators: Date and time format for recent posts on the dashboard, see
-#. https://www.php.net/manual/datetime.format.php
-#: wp-admin/includes/dashboard.php:1010
-msgid "M jS"
-msgstr "j M"
-
 #. translators: %s: Number of megabytes.
 #: wp-admin/includes/dashboard.php:1627
 msgid "%s MB Space Allowed"
@@ -8325,6 +8319,12 @@ msgstr "%s MB Space Allowed"
 #: wp-admin/includes/dashboard.php:1641
 msgid "%1$s MB (%2$s%%) Space Used"
 msgstr "%1$s MB (%2$s%%) Space Used"
+
+#. translators: Date and time format for recent posts on the dashboard, see
+#. https://www.php.net/manual/datetime.format.php
+#: wp-admin/includes/dashboard.php:1010
+msgid "M jS"
+msgstr "j F"
 
 #: wp-admin/includes/dashboard.php:67
 msgid "At a Glance"
@@ -8786,16 +8786,16 @@ msgstr "Your passwords do not match. Please try again."
 msgid "<strong>Clicking the arrow to the right of any menu item</strong> in the editor will reveal a standard group of settings. Additional settings such as link target, CSS classes, link relationships, and link descriptions can be enabled and disabled via the Screen Options tab."
 msgstr "<strong>Clicking the arrow to the right of any menu item</strong> in the editor will reveal a standard group of settings. Additional settings such as link target, CSS classes, link relationships, and link descriptions can be enabled and disabled via the Screen Options tab."
 
-#. translators: %s: URL to Widgets screen.
-#: wp-admin/nav-menus.php:600
-msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
-msgstr "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
-
 #. translators: 1: URL to Widgets screen, 2 and 3: The names of the default
 #. themes.
 #: wp-admin/nav-menus.php:609
 msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the navigation menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
 msgstr "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the navigation menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
+
+#. translators: %s: URL to Widgets screen.
+#: wp-admin/nav-menus.php:600
+msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
+msgstr "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
 
 #: wp-admin/install.php:408
 msgid "Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>."
@@ -11439,13 +11439,13 @@ msgid_plural "%s users"
 msgstr[0] "%s user"
 msgstr[1] "%s users"
 
-#: wp-admin/includes/dashboard.php:1502
-msgid "https://wordpress.org/news/"
-msgstr "https://wordpress.org/news/"
-
 #: wp-admin/includes/dashboard.php:1511
 msgid "https://wordpress.org/news/feed/"
 msgstr "https://en-gb.wordpress.org/news/feed/"
+
+#: wp-admin/includes/dashboard.php:1502
+msgid "https://wordpress.org/news/"
+msgstr "https://en-gb.wordpress.org/news/"
 
 #: wp-admin/options-discussion.php:74
 msgid "(Signup has been disabled. Only members of this site can comment.)"
@@ -12920,15 +12920,6 @@ msgstr "Anyone can register"
 msgid "New User Default Role"
 msgstr "New User Default Role"
 
-#: wp-admin/includes/class-wp-debug-data.php:82
-#: wp-admin/options-general.php:225
-msgid "Timezone"
-msgstr "Timezone"
-
-#: wp-admin/options-general.php:275
-msgid "This timezone is currently in standard time."
-msgstr "This timezone is currently in standard time."
-
 #: wp-admin/options-general.php:334 wp-admin/options-general.php:371
 msgid "Custom:"
 msgstr "Custom:"
@@ -13628,13 +13619,13 @@ msgstr "<strong>Error</strong>: please enter a password."
 msgid "This theme is already installed."
 msgstr "This theme is already installed."
 
-#: wp-admin/options-discussion.php:201
-msgid "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-
 #: wp-admin/options-discussion.php:210
 msgid "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be put in the Trash. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be put in the Bin. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
+
+#: wp-admin/options-discussion.php:201
+msgid "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
+msgstr "When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&#8217;s user agent string, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 
 #. translators: 1, 2, 3: Examples of random email addresses.
 #: wp-admin/options-writing.php:146
@@ -13664,6 +13655,15 @@ msgstr "Installation failed."
 #: wp-admin/includes/revision.php:95
 msgid "Removed"
 msgstr "Removed"
+
+#: wp-admin/includes/class-wp-debug-data.php:82
+#: wp-admin/options-general.php:225
+msgid "Timezone"
+msgstr "Time zone"
+
+#: wp-admin/options-general.php:275
+msgid "This timezone is currently in standard time."
+msgstr "This time zone is currently in standard time."
 
 #: wp-admin/includes/class-wp-comments-list-table.php:431
 #: wp-admin/includes/class-wp-media-list-table.php:219
@@ -15398,12 +15398,6 @@ msgstr "Sorry, you must be logged in to reply to a comment."
 msgid "Please provide a custom field value."
 msgstr "Please provide a custom field value."
 
-#. translators: Draft saved date format, see
-#. https://www.php.net/manual/datetime.format.php
-#: wp-admin/includes/misc.php:1250
-msgid "g:i:s a"
-msgstr "g:i:s a"
-
 #. translators: %s: Date and time.
 #: wp-admin/includes/misc.php:1254
 msgid "Draft saved at %s."
@@ -15470,3 +15464,9 @@ msgstr "Invalid plugin page."
 #: wp-admin/authorize-application.php:98 wp-admin/authorize-application.php:116
 msgid "Go Back"
 msgstr "Go Back"
+
+#. translators: Draft saved date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: wp-admin/includes/misc.php:1250
+msgid "g:i:s a"
+msgstr "H:i:s"

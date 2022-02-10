@@ -1,3 +1,0 @@
-<?php die(); ?><?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://www.oraro.co.ke/wp-sitemap-index.xsl" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://www.oraro.co.ke/wp-sitemap-posts-post-1.xml</loc></sitemap><sitemap><loc>https://www.oraro.co.ke/wp-sitemap-posts-page-1.xml</loc></sitemap><sitemap><loc>https://www.oraro.co.ke/wp-sitemap-taxonomies-category-1.xml</loc></sitemap><sitemap><loc>https://www.oraro.co.ke/wp-sitemap-taxonomies-post_tag-1.xml</loc></sitemap><sitemap><loc>https://www.oraro.co.ke/wp-sitemap-users-1.xml</loc></sitemap></sitemapindex>
