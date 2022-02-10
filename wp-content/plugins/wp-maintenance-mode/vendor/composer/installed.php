@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '2.4.3',
-        'version' => '2.4.3.0',
+        'pretty_version' => '2.4.4',
+        'version' => '2.4.4.0',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,17 +11,17 @@
     ),
     'versions' => array(
         'codeinwp/themeisle-sdk' => array(
-            'pretty_version' => '3.2.22',
-            'version' => '3.2.22.0',
+            'pretty_version' => '3.2.24',
+            'version' => '3.2.24.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
             'aliases' => array(),
-            'reference' => '394d0f27e17dab350efa7e91bffff31f4b451fec',
+            'reference' => 'e5c171e33120fdf8ce6dd3a7bddad984583023f0',
             'dev_requirement' => false,
         ),
         'codeinwp/wp-maintenance-mode' => array(
-            'pretty_version' => '2.4.3',
-            'version' => '2.4.3.0',
+            'pretty_version' => '2.4.4',
+            'version' => '2.4.4.0',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
