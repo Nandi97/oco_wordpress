@@ -1,0 +1,7 @@
+*** WordPress Enable vCard Upload Changelog ***
+
+2019.01.30 - varsion 1.1.0
+ * Update
+
+2016.10.18 - version 1.0.0
+ * Initial release
